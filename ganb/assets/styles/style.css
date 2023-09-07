@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.account {
+    padding-top: 3rem;
+}
+
+.news {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+}
+
+.news h1 {
+    font-size: 16pt;
+}
+
+.news p {
+    padding-bottom: 2rem;
+}
+
+
+
+
+.date {
+    position: absolute;
+    top: 85%;
+    font-size: 8pt;
+    opacity: .5;
+}
+
+.news img {
+    width: 60%;
+    display: inline;
+    position: absolute;
+    top: 25%;
+    left: 105%;
+}
+
+.booksmark {
+    position: absolute;
+    left: 99%;
+    top: 85%;
+}
