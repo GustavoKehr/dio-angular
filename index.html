@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/style.css">
-    
-    <title>D I O </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>D I O</title>
+  </head>
+  <body>
     <div class="container">
-        <div class="card">
-            <div class="cardLeft">
-                <span class="title">by Gustavo Kehr</span>
-                <h1><a href="#">Darth Vader Contrata Devs</a></h1>
-                <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes</p>
-            </div>
-            <div class="cardRigth">
-                <img src="assets/image/darth.jpg"  width="100%" alt="vader-photo">
-            </div>
-        </div>
+      <card-news
+        autor="Gustavo"
+        title="Darth Vader Contrata"
+        link-url="https://www.google.com"
+        photo="assets/image/darth.jpg"
+        newsContent="Darth Vader procura desenvolvedores que sabem trabalhar com
+        componentes"
+      >
+      </card-news>
+
+      <card-news
+        title="Yoda convence a republica a utilizar componentes"
+        link-url="https://www.google.com/yoda"
+        newsContent="Yoda se pronuncia e choca a republica"
+      >
+      </card-news>
     </div>
-</body>
+    <script src="src/components/cardNews.js" defer></script>
+    <script src="src/components/tituloDinamico.js" defer></script>
+  </body>
 </html>

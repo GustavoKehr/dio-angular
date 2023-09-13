@@ -1,54 +1,6 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: fit-content;
-}
-
-.card {
-    box-shadow: 1px 1px 13px -1px rgba(0,0,0,0.51);
-    width: 720px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.cardLeft {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    padding-left: 10px;
-}
-
-.cardLeft > span {
-    font-weight: bold;
-    background-color: rgba(128, 128, 128, 0.568);
-    width: fit-content;
-    padding: .4rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.cardLeft > h1 {
-    margin-top: 10px;
-    font-size: 25px;
-}
-.cardLeft > h1 a {
-    text-decoration: none !important ;
-    color: black;
-}
-
-.cardLeft > p {
-    margin-top: 5px;
-    color: rgb(95, 95, 95);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
