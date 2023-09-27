@@ -1,24 +1,16 @@
 <div class="small-card-container">
-    <div class="small-card-container-content">
-        <div class="small-card-photo">
-            <img src="https://i.ytimg.com/vi/NmUw8Fy9KdU/maxresdefault.jpg" 
-            alt="gamersclub-photo"
-            
-            >
-        </div>
-        
-        <div class="small-card-title">
-            <h3>
-                <p class="small-card-date">
-                    September 25, 2023
-                </p>
-                <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nostrum, dicta officiis vel necessitatibus amet unde laudantium vero autem, perspiciatis quis, obcaecati incidunt dolorum fugit velit voluptate facere eligendi? Impedit?</a>
-            </h3>
-        </div>
+  <div class="small-card-container-content">
+    <div class="small-card-photo">
+      <img src="{{ photoCover }}" />
     </div>
-
-    <div class="small-card-separator-container">
-        <hr>
+    <div class="small-card-title">
+      <h3>
+        <p class="small-card-date">{{ cardDate }}</p>
+        <a href="{{cardLink}}" target="_blank">{{ cardTitle }}</a>
+      </h3>
     </div>
-    
+  </div>
+  <div class="small-card-separator-container">
+    <hr />
+  </div>
 </div>
